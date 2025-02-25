@@ -6,16 +6,3 @@ export function allAthletes(students: (Student | Athlete)[], defaultSport: strin
     // TODO: Implement logic to ensure all students have a sport
     return []; // Placeholder return statement
 }
-
-// Example test cases
-const input: (Student | Athlete)[] = [
-    { name: "Joe", age: 100, sport: "Baseball" },
-    { name: "Trump", age: 90 },
-];
-
-console.log(allAthletes(input, "Football"));
-// Expected output:
-// [
-//   { name: "Joe", age: 100, sport: "Baseball" },
-//   { name: "Trump", age: 90, sport: "Football" },
-// ]

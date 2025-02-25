@@ -7,10 +7,8 @@ export function arrayOfStudents(names: string[], ages: number[]): Student[] {
     return []; // Placeholder return statement
 }
 
-// Example test cases
-const names: string[] = ["Joe", "Schmo"];
-const ages: number[] = [50, 60];
-console.log(arrayOfStudents(names, ages));
+// Example
+// arrayOfStudents(names, ages));
 // Expected output:
 // [
 //     { name: "Joe", age: 50 },

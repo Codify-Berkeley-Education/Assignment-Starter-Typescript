@@ -9,7 +9,3 @@ export function concatNumbers(num1: number, num2: number): string {
     // TODO: Implement logic to concatenate the numbers as strings
     return ""; // Placeholder return statement
 }
-
-// Example test cases
-console.log(concatNumbers(4, 5));   // Expected output: "45"
-console.log(concatNumbers(5, -9));  // Expected output: "5-9"

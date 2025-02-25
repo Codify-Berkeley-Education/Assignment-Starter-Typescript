@@ -7,19 +7,3 @@ export function verifyUser(user: User | null | undefined): User | string[] {
     return []; // Placeholder return statement
 }
 
-// Example test cases
-const u1: User = {
-    id: "1",
-};
-
-const u2: User = {
-    id: "2",
-    name: "Satish",
-    address: {
-        street: "1624 Shattuck",
-        city: "Berkeley",
-    },
-};
-
-console.log(verifyUser(u1)); // Expected output: ["name", "address", "street", "city"]
-console.log(verifyUser(u2)); // Expected output: u2 user object
